@@ -115,22 +115,6 @@ Participants should have:
 
 ---
 
-## Recommended Linux Commands Before Starting
-
-Participants should be comfortable running:
-
-```bash
-pwd
-ls
-cd
-mkdir
-touch
-cat
-less
-```
-
----
-
 ## Access Requirements
 
 Participants should have:
