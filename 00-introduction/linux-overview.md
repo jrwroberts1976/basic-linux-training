@@ -18,7 +18,7 @@ This module introduces the Linux operating system, its history, common distribut
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 By the end of this module, you should understand:
 
@@ -29,6 +29,7 @@ By the end of this module, you should understand:
 - The difference between Linux desktop and server environments
 - Common Linux terminology
 - How Linux is used in modern IT environments
+- How to access a Linux system
 
 ---
 
@@ -162,7 +163,7 @@ into a complete operating system.
 Examples:
 
 | Distribution | Common Use |
-|---|---|
+|-|-|
 | Ubuntu | Servers, cloud, desktop |
 | Debian | Stable servers |
 | Rocky Linux | Enterprise systems |
@@ -287,29 +288,25 @@ The command line allows administrators to:
 - Troubleshoot problems
 - Automate tasks
 
-Example:
+Examples:
+
+List files:
 
 ```bash
 ls
 ```
 
-Lists files in a directory.
-
-Example:
+Show disk usage:
 
 ```bash
 df -h
 ```
 
-Shows disk usage.
-
-Example:
+Check a service:
 
 ```bash
 systemctl status ssh
 ```
-
-Checks whether the SSH service is running.
 
 ---
 
@@ -422,6 +419,188 @@ Examples:
 
 ---
 
+# Logging Into Linux
+
+Before administering a Linux system, you need to access the system.
+
+Linux systems can be accessed using:
+
+- Local console login
+- Remote SSH login
+- Virtual machine console
+- Cloud console access
+
+---
+
+## Local Console Login
+
+A local login is performed directly on the Linux machine.
+
+Example:
+
+```
+login:
+password:
+```
+
+You provide:
+
+- Username
+- Password
+
+After successful authentication, you are presented with a shell.
+
+Example:
+
+```
+james@linux-server:~$
+```
+
+The prompt provides useful information:
+
+```
+username@hostname:directory
+```
+
+Example:
+
+```
+james@k3s-node-01:~$
+```
+
+| Component | Meaning |
+|-|-|
+| james | Logged-in user |
+| k3s-node-01 | System hostname |
+| ~ | Current home directory |
+
+---
+
+## Remote Login Using SSH
+
+Most Linux servers are managed remotely using SSH.
+
+SSH (Secure Shell) provides an encrypted connection to another Linux system.
+
+The basic format:
+
+```bash
+ssh username@hostname
+```
+
+Example:
+
+```bash
+ssh james@server01
+```
+
+Using an IP address:
+
+```bash
+ssh james@192.168.1.50
+```
+
+---
+
+## First SSH Connection
+
+The first time you connect to a new server, you may see:
+
+```
+The authenticity of host 'server01' can't be established.
+
+Are you sure you want to continue connecting?
+```
+
+Type:
+
+```
+yes
+```
+
+The server identity is then saved locally.
+
+---
+
+## Understanding the Linux Prompt
+
+Example:
+
+```bash
+james@server01:~$
+```
+
+The format is:
+
+```
+user@hostname:location
+```
+
+Example:
+
+```bash
+james@server01:/etc$
+```
+
+Means:
+
+- User: james
+- Hostname: server01
+- Current directory: /etc
+
+---
+
+## Checking Your Current User
+
+Use:
+
+```bash
+whoami
+```
+
+Example:
+
+```
+james
+```
+
+---
+
+## Checking Logged In Users
+
+Linux allows multiple users to be logged in.
+
+Use:
+
+```bash
+who
+```
+
+Example:
+
+```
+james    pts/0    09:15
+admin    pts/1    09:20
+```
+
+---
+
+## Logging Out
+
+End your session:
+
+```bash
+exit
+```
+
+or:
+
+```
+CTRL + D
+```
+
+---
+
 # Practical Exercise
 
 ## Task 1 - Identify Your System
@@ -522,7 +701,11 @@ Disk usage:
 
 4. What is the difference between Linux and a Linux distribution?
 
-5. Why should administrators avoid logging in directly as root?
+5. What command is used to connect remotely to a Linux server?
+
+6. What command shows your current username?
+
+7. Why should administrators avoid logging in directly as root?
 
 ---
 
@@ -535,6 +718,7 @@ In this module you learned:
 ✓ Linux distributions package the kernel with tools and applications  
 ✓ Linux is widely used in servers and cloud platforms  
 ✓ Most administration is performed from the command line  
+✓ Linux supports secure remote administration using SSH  
 ✓ Linux uses a structured filesystem and user permission model  
 
 Next module:
