@@ -49,18 +49,17 @@ Before beginning the training, complete:
 
 | Module | Topic | Status |
 |---|---|---|
-| 00 | Introduction to Linux | Complete |
-| 01 | Command Line Fundamentals | Planned |
-| 02 | Filesystem Management | Planned |
-| 03 | Users and Groups | Planned |
-| 04 | Processes and Services | Planned |
-| 05 | Package Management | Planned |
-| 06 | Networking Fundamentals | Planned |
-| 07 | Storage Management | Planned |
-| 08 | Bash Scripting | Planned |
-| 09 | Linux Security | Planned |
-| 10 | Troubleshooting | Planned |
-
+| 00 | [Introduction to Linux](./00-introduction/linux-overview.md) | ✅ Complete |
+| 01 | Command Line Fundamentals | ☐ Planned |
+| 02 | Filesystem Management | ☐ Planned |
+| 03 | Users and Groups | ☐ Planned |
+| 04 | Processes and Services | ☐ Planned |
+| 05 | Package Management | ☐ Planned |
+| 06 | Networking Fundamentals | ☐ Planned |
+| 07 | Storage Management | ☐ Planned |
+| 08 | Bash Scripting | ☐ Planned |
+| 09 | Linux Security | ☐ Planned |
+| 10 | Troubleshooting | ☐ Planned |
 ---
 
 # Practical Labs
