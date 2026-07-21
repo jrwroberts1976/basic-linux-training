@@ -6,6 +6,8 @@ The Linux command line is one of the most powerful tools available to a Linux ad
 
 This module introduces the Linux shell, navigation, file management and the essential commands required to work confidently from the terminal.
 
+The skills learned in this module form the foundation for all future Linux administration tasks.
+
 ---
 
 ## Learning Objectives
@@ -13,37 +15,45 @@ This module introduces the Linux shell, navigation, file management and the esse
 By completing this module you will be able to:
 
 - Understand the Linux shell
+- Understand the Linux command prompt
 - Navigate the filesystem
-- Create and manage files and directories
-- View file contents
-- Use the Linux help system
-- Complete common command-line tasks
+- Work with files and directories
+- View and search file contents
+- Use Linux documentation and help systems
+- Perform common command-line administration tasks
 
 ---
 
-## Lessons
+# Lessons
 
 | Lesson | Topic | Status |
 |---------|-------|--------|
 | 1 | [The Linux Shell and Navigation](./lesson-01-linux-shell.md) | ✅ Complete |
-| 2 | [Working with Files and Directories](./lesson-02-working-with-files.md) | 🚧 In Progress |
+| 2 | [Working with Files and Directories](./lesson-02-working-with-files.md) | ✅ Complete |
 | 3 | Viewing Files and Getting Help | ⏳ Planned |
-| 4 | Practical Lab | ⏳ Planned |
+| 4 | Practical Command Line Lab | ⏳ Planned |
 
 ---
 
-## Estimated Study Time
+# Module Topics
 
-Approximately **3 hours**
+This module covers:
+
+## The Linux Shell
+
+- What is a shell?
+- Bash
+- The command prompt
+- Running commands
+- Understanding command structure
 
 ---
 
-## Prerequisites
+## Filesystem Navigation
 
-- Module 00 – Introduction to Linux
+Commands covered:
 
----
-
-## Next Module
-
-Module 02 – Linux Filesystem Administration
+```bash
+pwd
+ls
+cd
