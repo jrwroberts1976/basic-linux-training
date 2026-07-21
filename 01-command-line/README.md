@@ -31,7 +31,7 @@ By completing this module you will be able to:
 | 1 | [The Linux Shell and Navigation](./lesson-01-linux-shell.md) | ✅ Complete |
 | 2 | [Working with Files and Directories](./lesson-02-working-with-files.md) | ✅ Complete |
 | 3 | [Viewing Files and Getting Help](./lesson-03-viewing-files-and-getting-help.md) | ✅ Complete |
-| 4 | Practical Command Line Lab | ⏳ Planned |
+| 4 | [Practical Command Line Lab](./lesson-04-practical-command-line-lab.md) | ✅ Complete |
 
 ---
 
