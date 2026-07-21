@@ -1,6 +1,6 @@
 # Basic Linux Training
 
-A structured Linux training course designed to teach the fundamentals of Linux system administration through hands-on lessons and practical exercises.
+A structured Linux training course designed to teach the fundamentals of Linux system administration through hands-on lessons, practical exercises and real-world administration tasks.
 
 ---
 
@@ -43,11 +43,15 @@ No previous Linux administration experience is required.
 
 Welcome to the **Basic Linux Training** course.
 
-The course has been designed to be completed in order, with each lesson building on the knowledge gained in the previous module.
+The course is designed to be completed in order, with each module building on the knowledge gained in previous lessons.
+
+---
 
 ## Step 1 - Prepare Your Environment
 
-Before starting the course, ensure you have access to a Linux environment and review the prerequisites.
+Before starting the course, ensure you have access to a Linux environment.
+
+Review:
 
 📋 **Prerequisites**
 
@@ -57,7 +61,12 @@ Before starting the course, ensure you have access to a Linux environment and re
 
 ## Step 2 - Review the Training Plan
 
-The training plan explains the learning objectives and recommended order for completing the course.
+The training plan explains:
+
+- Course structure
+- Learning objectives
+- Recommended learning order
+- Module progression
 
 🗺️ **Training Plan**
 
@@ -65,15 +74,15 @@ The training plan explains the learning objectives and recommended order for com
 
 ---
 
-## Step 3 - Complete the Training Modules
+# Training Modules
 
 Work through each module in order.
 
-| Module | Lesson | Status |
-|---------|--------|--------|
-| 00 | [Introduction to Linux](./00-introduction/linux-overview.md) | ✅ Complete |
-| 01 | [Command Line Fundamentals](./01-command-line/README.md) | 🚧 In Progress |
-| 02 | Filesystem Management | ⏳ Planned |
+| Module | Topic | Status |
+|---|---|---|
+| 00 | [Introduction to Linux](./00-introduction/README.md) | ✅ Complete |
+| 01 | [Command Line Fundamentals](./01-command-line/README.md) | ✅ Complete |
+| 02 | Linux Filesystem Administration | ⏳ Planned |
 | 03 | Users and Groups | ⏳ Planned |
 | 04 | Processes and Services | ⏳ Planned |
 | 05 | Package Management | ⏳ Planned |
@@ -85,11 +94,29 @@ Work through each module in order.
 
 ---
 
-## Step 4 - Complete the Practical Labs
+# Course Structure
 
-Each lesson is accompanied by practical exercises to reinforce your learning.
+Each module contains:
 
-The labs are designed to simulate common Linux administration tasks encountered in real-world environments.
+- 📖 Theory and concepts
+- 💻 Command examples
+- 🧪 Practical exercises
+- ✅ Knowledge checks
+- 📚 Summary and key takeaways
+
+Example:
+
+```
+Module
+│
+├── README.md
+│
+├── Lesson 01
+├── Lesson 02
+├── Lesson 03
+│
+└── Practical Lab
+```
 
 ---
 
@@ -101,10 +128,15 @@ basic-linux-training/
 ├── README.md
 │
 ├── 00-introduction/
+│   ├── README.md
 │   └── linux-overview.md
 │
 ├── 01-command-line/
-│   └── README.md
+│   ├── README.md
+│   ├── lesson-01-linux-shell.md
+│   ├── lesson-02-working-with-files.md
+│   ├── lesson-03-viewing-files-and-getting-help.md
+│   └── lesson-04-practical-command-line-lab.md
 │
 ├── 02-filesystem/
 ├── 03-users-and-groups/
@@ -131,14 +163,14 @@ basic-linux-training/
 
 The course can be completed using any Linux installation.
 
-Recommended environments include:
+Recommended environments:
 
 - Virtual Machine (VirtualBox, VMware or Hyper-V)
 - Raspberry Pi
 - Cloud Virtual Machine
 - Windows Subsystem for Linux (WSL)
 
-Recommended Linux distributions:
+Recommended distributions:
 
 - Ubuntu Server LTS
 - Debian
@@ -146,26 +178,12 @@ Recommended Linux distributions:
 
 ---
 
-# Learning Approach
-
-Every module follows the same structure:
-
-- 📖 Theory and concepts
-- 💻 Command examples
-- 🧪 Practical exercises
-- ✅ Knowledge checks
-- 📚 Summary and key takeaways
-
-The aim is to build practical Linux administration skills through hands-on learning.
-
----
-
 # Resources
 
-Additional reference material is available in the following documents:
+Additional reference material:
 
 | Resource | Link |
-|----------|------|
+|---|---|
 | Course Prerequisites | [docs/prerequisites.md](./docs/prerequisites.md) |
 | Linux Training Plan | [docs/training-plan.md](./docs/training-plan.md) |
 | Linux Command Reference | [resources/linux-commands.md](./resources/linux-commands.md) |
@@ -174,11 +192,11 @@ Additional reference material is available in the following documents:
 
 # Course Progress
 
-| Module | Progress |
-|---------|----------|
+| Module | Status |
+|---|---|
 | Module 00 – Introduction to Linux | ✅ Complete |
-| Module 01 – Command Line Fundamentals | 🚧 In Progress |
-| Module 02 – Filesystem Management | ⏳ Planned |
+| Module 01 – Command Line Fundamentals | ✅ Complete |
+| Module 02 – Linux Filesystem Administration | ⏳ Planned |
 | Module 03 – Users and Groups | ⏳ Planned |
 | Module 04 – Processes and Services | ⏳ Planned |
 | Module 05 – Package Management | ⏳ Planned |
@@ -194,7 +212,7 @@ Additional reference material is available in the following documents:
 
 Contributions are welcome.
 
-If you identify an error, have suggestions for improving the training material, or would like to add additional exercises, please submit a pull request or open an issue.
+If you identify errors, have suggestions, or would like to add exercises, please submit a pull request or open an issue.
 
 ---
 
