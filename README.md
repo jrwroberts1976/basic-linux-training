@@ -82,7 +82,7 @@ Work through each module in order.
 |---|---|---|
 | 00 | [Introduction to Linux](./00-introduction/README.md) | ✅ Complete |
 | 01 | [Command Line Fundamentals](./01-command-line/README.md) | ✅ Complete |
-| 02 | Linux Filesystem Administration (./02-filesystem/REAME.md) |
+| 02 | [Linux Filesystem Administration] (./02-filesystem/REAME.md) |
 | 03 | Users and Groups | ⏳ Planned |
 | 04 | Processes and Services | ⏳ Planned |
 | 05 | Package Management | ⏳ Planned |
