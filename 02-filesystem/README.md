@@ -39,7 +39,7 @@ By the end of this module you will be able to:
 
 | Lesson | Topic | Status |
 |---------|-------|--------|
-| 1 | Linux Filesystem Hierarchy | ⏳ Planned |
+| 1 | [Linux Filesystem Hierarchy](.lesson-01-linux-filesystem-hierarchy.md)| ✅ Complete |
 | 2 | File Permissions and Ownership | ⏳ Planned |
 | 3 | Finding Files and Links | ⏳ Planned |
 | 4 | Filesystem Practical Lab | ⏳ Planned |
