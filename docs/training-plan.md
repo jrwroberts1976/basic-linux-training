@@ -43,7 +43,7 @@ Each module builds on the previous module, gradually introducing the skills requ
 ✅ Complete
 
 ---
-
+```md
 # Module 01 - Command Line Fundamentals
 
 ## Lessons
@@ -87,12 +87,15 @@ Using wildcards
 
 Common commands:
 
-mkdir
+```bash
+ mkdir
 touch
 cp
 mv
 rm
-rmdir
+rmdir 
+
+```md
 Viewing Files and Getting Help
 
 Topics:
@@ -104,7 +107,7 @@ Using manual pages
 Understanding command locations
 
 Common commands:
-
+```bash
 cat
 less
 head
@@ -113,6 +116,7 @@ man
 history
 which
 whatis
+```md
 Practical Command Line Lab
 
 The module concludes with practical exercises covering:
@@ -150,11 +154,12 @@ Changing ownership
 Changing permissions
 
 Commands:
-
+```bash
 ls -l
 chmod
 chown
 chgrp
+```md
 Finding Files and Links
 Searching the filesystem
 Finding files
@@ -162,10 +167,11 @@ Symbolic links
 Hard links
 
 Commands:
-
+```bash
 find
 locate
 ln
+```md
 Filesystem Administration Lab
 
 Practical exercises:
