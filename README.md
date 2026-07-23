@@ -150,12 +150,19 @@ basic-linux-training/
 │   └── lesson-04-filesystem-administration-lab.md
 │
 ├── 03-users-and-groups/
+│
 ├── 04-process-management/
+│
 ├── 05-package-management/
+│
 ├── 06-networking/
+│
 ├── 07-storage/
+│
 ├── 08-shell-scripting/
+│
 ├── 09-security/
+│
 ├── 10-troubleshooting/
 │
 ├── docs/
@@ -176,6 +183,7 @@ Virtual Machine (VirtualBox, VMware or Hyper-V)
 Raspberry Pi
 Cloud Virtual Machine
 Windows Subsystem for Linux (WSL)
+Physical Linux systems
 
 Recommended distributions:
 
@@ -204,6 +212,7 @@ Module 07 – Storage Management	⏳ Planned
 Module 08 – Bash Scripting	⏳ Planned
 Module 09 – Linux Security	⏳ Planned
 Module 10 – Troubleshooting	⏳ Planned
+Final Linux Administration Lab	⏳ Planned
 Contributing
 
 Contributions are welcome.
@@ -212,4 +221,4 @@ If you identify errors, have suggestions, or would like to add exercises, please
 
 Licence
 
-This repository is provided for training and educational purposes.
+This repository is provided for training and educational purposes

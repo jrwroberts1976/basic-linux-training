@@ -429,8 +429,8 @@ Recommended distributions:
 |---|---|
 | Module 00 - Introduction to Linux | ✅ Complete |
 | Module 01 - Command Line Fundamentals | ✅ Complete |
-| Module 02 - Linux Filesystem Administration | 🚧 In Progress |
-| Module 03 - Users and Groups | ☐ Planned |
+| Module 02 - Linux Filesystem Administration | ✅ Complete |
+| Module 03 - Users and Groups | 🚧 In Progress |
 | Module 04 - Processes and Services | ☐ Planned |
 | Module 05 - Package Management | ☐ Planned |
 | Module 06 - Networking Fundamentals | ☐ Planned |
