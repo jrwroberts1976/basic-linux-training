@@ -41,11 +41,10 @@ By the end of this module you will be able to:
 |---------|-------|--------|
 | 1 | [Linux Filesystem Hierarchy](./lesson-01-linux-filesystem-hierarchy.md)| ✅ Complete |
 | 2 | [File Permissions and Ownership](./lesson-02-file-permissions-and-ownership.md)| ✅ Complete |
-| 3 | Finding Files and Links | ⏳ Planned |
-| 4 | Filesystem Practical Lab | ⏳ Planned |
+| 3 | [Finding Files and Links](./lesson-03-finding-files-and-links.md)| ✅ Complete |
+| 4 | [Filesystem Practical Labs](lesson-04-filesystem-lab.md)| ✅ Complete |
 
 ---
-
 # Estimated Study Time
 
 Approximately **3–4 hours**
