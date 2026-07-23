@@ -1,6 +1,6 @@
 # Basic Linux Training
 
-A structured Linux training course designed to teach the fundamentals of Linux system administration through hands-on lessons, practical exercises and real-world administration tasks.
+A structured Linux training course designed to teach the fundamentals of Linux system administration through hands-on lessons, practical exercises, and real-world administration tasks.
 
 ---
 
@@ -51,21 +51,17 @@ The course is designed to be completed in order, with each module building on th
 
 Before starting the course, ensure you have access to a Linux environment.
 
-Review:
+Review the prerequisites:
 
-📋 **Prerequisites**
-
-- [Course Prerequisites](./docs/prerequisites.md)
+📋 [Course Prerequisites](./docs/prerequisites.md)
 
 ---
 
 ## Step 2 - Course Navigation
 
-The complete course structure, module links and learning path are maintained in:
+The complete course structure, module links, and learning path are maintained in:
 
-📚 **Course Index**
-
-- [Linux Training Course Index](./docs/course-index.md)
+📚 [Linux Training Course Index](./docs/course-index.md)
 
 ---
 
@@ -78,9 +74,7 @@ The training plan explains:
 - Recommended learning order
 - Module progression
 
-🗺️ **Training Plan**
-
-- [Linux Training Plan](./docs/training-plan.md)
+🗺️ [Linux Training Plan](./docs/training-plan.md)
 
 ---
 
@@ -114,19 +108,25 @@ Each module contains:
 - ✅ Knowledge checks
 - 📚 Summary and key takeaways
 
-Example:
+Example module structure:
 
 ```text
 Module
 │
 ├── README.md
 │
-├── Lessons
+├── Lesson 01
+├── Lesson 02
+├── Lesson 03
 │
-├── Practical Exercises
-│
-└── Knowledge Check
-Repository Structure
+└── Practical Lab
+```
+
+---
+
+# Repository Structure
+
+```text
 basic-linux-training/
 │
 ├── README.md
@@ -173,52 +173,86 @@ basic-linux-training/
 ├── labs/
 │
 └── resources/
-Recommended Training Environment
+```
+
+---
+
+# Recommended Training Environment
 
 The course can be completed using any Linux installation.
 
 Recommended environments:
 
-Virtual Machine (VirtualBox, VMware or Hyper-V)
-Raspberry Pi
-Cloud Virtual Machine
-Windows Subsystem for Linux (WSL)
-Physical Linux systems
+- Virtual Machine (VirtualBox, VMware, or Hyper-V)
+- Raspberry Pi
+- Cloud Virtual Machine
+- Windows Subsystem for Linux (WSL)
+- Physical Linux systems
 
 Recommended distributions:
 
-Ubuntu Server LTS
-Debian
-Rocky Linux
-Resources
+- Ubuntu Server LTS
+- Debian
+- Rocky Linux
+
+---
+
+# Learning Approach
+
+The course follows a practical, hands-on approach.
+
+Each lesson includes:
+
+- Concepts and explanations
+- Real Linux commands
+- Examples
+- Practical exercises
+- Administration scenarios
+
+The goal is to develop confidence managing Linux systems in real-world environments.
+
+---
+
+# Resources
 
 Additional reference material:
 
-Resource	Link
-Course Index	docs/course-index.md
-Course Prerequisites	docs/prerequisites.md
-Linux Training Plan	docs/training-plan.md
-Linux Command Reference	resources/linux-commands.md
-Course Progress
-Module	Status
-Module 00 – Introduction to Linux	✅ Complete
-Module 01 – Command Line Fundamentals	✅ Complete
-Module 02 – Linux Filesystem Administration	🚧 In Progress
-Module 03 – Users and Groups	⏳ Planned
-Module 04 – Processes and Services	⏳ Planned
-Module 05 – Package Management	⏳ Planned
-Module 06 – Networking Fundamentals	⏳ Planned
-Module 07 – Storage Management	⏳ Planned
-Module 08 – Bash Scripting	⏳ Planned
-Module 09 – Linux Security	⏳ Planned
-Module 10 – Troubleshooting	⏳ Planned
-Final Linux Administration Lab	⏳ Planned
-Contributing
+| Resource | Link |
+|---|---|
+| Course Index | [docs/course-index.md](./docs/course-index.md) |
+| Course Prerequisites | [docs/prerequisites.md](./docs/prerequisites.md) |
+| Linux Training Plan | [docs/training-plan.md](./docs/training-plan.md) |
+| Linux Command Reference | [resources/linux-commands.md](./resources/linux-commands.md) |
+
+---
+
+# Course Progress
+
+| Module | Status |
+|---|---|
+| Module 00 - Introduction to Linux | ✅ Complete |
+| Module 01 - Command Line Fundamentals | ✅ Complete |
+| Module 02 - Linux Filesystem Administration | 🚧 In Progress |
+| Module 03 - Users and Groups | ⏳ Planned |
+| Module 04 - Processes and Services | ⏳ Planned |
+| Module 05 - Package Management | ⏳ Planned |
+| Module 06 - Networking Fundamentals | ⏳ Planned |
+| Module 07 - Storage Management | ⏳ Planned |
+| Module 08 - Bash Scripting | ⏳ Planned |
+| Module 09 - Linux Security | ⏳ Planned |
+| Module 10 - Troubleshooting | ⏳ Planned |
+| Final Linux Administration Lab | ⏳ Planned |
+
+---
+
+# Contributing
 
 Contributions are welcome.
 
 If you identify errors, have suggestions, or would like to add exercises, please submit a pull request or open an issue.
 
-Licence
+---
 
-This repository is provided for training and educational purposes
+# Licence
+
+This repository is provided for training and educational purposes.
