@@ -36,7 +36,9 @@ By completing this module, you will understand:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 1 | [Linux Overview](./linux-overview.md) | ✅ Complete |
+| 0 | [Linux Overview](./linux-overview.md) | ✅ Complete |
+| 1 | [01 Command Line](../01-command-line/) | ✅ Complete |
+| 2 | [02 Filesystem](../02-filesystem/) | ✅ Complete |
 
 ---
 
