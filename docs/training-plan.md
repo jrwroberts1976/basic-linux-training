@@ -18,9 +18,9 @@ Each module builds on the previous module, gradually introducing the skills requ
 
 # Learning Path
 
-# Module 00 - Introduction to Linux
+## Module 00 - Introduction to Linux
 
-## Topics Covered
+### Topics Covered
 
 - What is Linux?
 - Linux history
@@ -31,14 +31,14 @@ Each module builds on the previous module, gradually introducing the skills requ
 - Accessing Linux systems
 - Linux terminology
 
-## Practical Exercises
+### Practical Exercises
 
 - Identify Linux distribution
 - Check kernel version
 - Explore system information
 - Identify Linux environment
 
-## Status
+### Status
 
 ✅ Complete
 
@@ -61,31 +61,20 @@ Each module builds on the previous module, gradually introducing the skills requ
 
 ### Linux Shell
 
-Commands:
+- Understanding the Linux shell
+- Bash
+- Command structure
+- Linux command prompt
+- Running commands
+
+Common commands:
 
 ```bash
 echo
 pwd
 ls
 cd
-
-Topics:
-
-Understanding the Linux shell
-Bash
-Command structure
-Linux command prompt
-Running commands
 Files and Directories
-
-Commands:
-
-mkdir
-touch
-cp
-mv
-rm
-rmdir
 
 Topics:
 
@@ -95,9 +84,26 @@ Copying files
 Moving files
 Removing files safely
 Using wildcards
+
+Common commands:
+
+mkdir
+touch
+cp
+mv
+rm
+rmdir
 Viewing Files and Getting Help
 
-Commands:
+Topics:
+
+Viewing file contents
+Reviewing system information
+Finding command documentation
+Using manual pages
+Understanding command locations
+
+Common commands:
 
 cat
 less
@@ -107,14 +113,6 @@ man
 history
 which
 whatis
-
-Topics:
-
-Viewing file contents
-Reviewing system information
-Finding command documentation
-Using manual pages
-Understanding command locations
 Practical Command Line Lab
 
 The module concludes with practical exercises covering:
@@ -138,34 +136,18 @@ Lesson	Topic	Status
 04	Filesystem Administration Lab	☐ Planned
 Topics Covered
 Linux Filesystem
-
-Topics:
-
 Linux filesystem structure
 Root filesystem (/)
 Standard directories
 File locations
 Navigation techniques
-
-Important directories:
-
-/
-├── bin
-├── etc
-├── home
-├── var
-├── usr
-└── tmp
 File Ownership and Permissions
-
-Topics:
-
 Users and groups
 File ownership
 Permission model
 Read, write and execute permissions
-chmod
-chown
+Changing ownership
+Changing permissions
 
 Commands:
 
@@ -174,9 +156,6 @@ chmod
 chown
 chgrp
 Finding Files and Links
-
-Topics:
-
 Searching the filesystem
 Finding files
 Symbolic links
@@ -187,7 +166,6 @@ Commands:
 find
 locate
 ln
-ls -l
 Filesystem Administration Lab
 
 Practical exercises:
@@ -209,8 +187,7 @@ Groups
 Password management
 sudo
 Administrative access
-
-Status:
+Status
 
 ☐ Planned
 
@@ -221,8 +198,7 @@ Background services
 systemd
 Service management
 Log analysis
-
-Status:
+Status
 
 ☐ Planned
 
@@ -237,8 +213,7 @@ Platforms:
 
 Debian / Ubuntu (APT)
 Red Hat / Rocky Linux (DNF)
-
-Status:
+Status
 
 ☐ Planned
 
@@ -249,8 +224,7 @@ Network interfaces
 DNS
 Connectivity troubleshooting
 Remote access
-
-Status:
+Status
 
 ☐ Planned
 
@@ -261,8 +235,7 @@ Partitions
 Filesystems
 Mount points
 Disk usage
-
-Status:
+Status
 
 ☐ Planned
 
@@ -273,8 +246,7 @@ Variables
 Conditions
 Loops
 Automation
-
-Status:
+Status
 
 ☐ Planned
 
@@ -285,8 +257,7 @@ User permissions
 Firewalls
 Updates
 Logging
-
-Status:
+Status
 
 ☐ Planned
 
@@ -309,8 +280,7 @@ Check logs
 Test possible causes
 Apply fixes
 Document resolution
-
-Status:
+Status
 
 ☐ Planned
 
@@ -326,8 +296,7 @@ Installing applications
 Configuring services
 Securing the system
 Troubleshooting issues
-
-Status:
+Status
 
 ☐ Planned
 
