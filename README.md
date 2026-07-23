@@ -59,7 +59,17 @@ Review:
 
 ---
 
-## Step 2 - Review the Training Plan
+## Step 2 - Course Navigation
+
+The complete course structure, module links and learning path are maintained in:
+
+📚 **Course Index**
+
+- [Linux Training Course Index](./docs/course-index.md)
+
+---
+
+## Step 3 - Review the Training Plan
 
 The training plan explains:
 
@@ -82,7 +92,7 @@ Work through each module in order.
 |---|---|---|
 | 00 | [Introduction to Linux](./00-introduction/README.md) | ✅ Complete |
 | 01 | [Command Line Fundamentals](./01-command-line/README.md) | ✅ Complete |
-| 02 | [Linux Filesystem Administration](02-filesystem/README.md) | ✅ Complete |
+| 02 | [Linux Filesystem Administration](./02-filesystem/README.md) | 🚧 In Progress |
 | 03 | Users and Groups | ⏳ Planned |
 | 04 | Processes and Services | ⏳ Planned |
 | 05 | Package Management | ⏳ Planned |
@@ -106,23 +116,17 @@ Each module contains:
 
 Example:
 
-```
+```text
 Module
 │
 ├── README.md
 │
-├── Lesson 01
-├── Lesson 02
-├── Lesson 03
+├── Lessons
 │
-└── Practical Lab
-```
-
----
-
-# Repository Structure
-
-```text
+├── Practical Exercises
+│
+└── Knowledge Check
+Repository Structure
 basic-linux-training/
 │
 ├── README.md
@@ -139,6 +143,12 @@ basic-linux-training/
 │   └── lesson-04-practical-command-line-lab.md
 │
 ├── 02-filesystem/
+│   ├── README.md
+│   ├── lesson-01-filesystem-hierarchy.md
+│   ├── lesson-02-file-permissions-and-ownership.md
+│   ├── lesson-03-finding-files-and-links.md
+│   └── lesson-04-filesystem-administration-lab.md
+│
 ├── 03-users-and-groups/
 ├── 04-process-management/
 ├── 05-package-management/
@@ -149,73 +159,57 @@ basic-linux-training/
 ├── 10-troubleshooting/
 │
 ├── docs/
+│   ├── course-index.md
 │   ├── prerequisites.md
 │   └── training-plan.md
 │
 ├── labs/
 │
 └── resources/
-```
-
----
-
-# Recommended Training Environment
+Recommended Training Environment
 
 The course can be completed using any Linux installation.
 
 Recommended environments:
 
-- Virtual Machine (VirtualBox, VMware or Hyper-V)
-- Raspberry Pi
-- Cloud Virtual Machine
-- Windows Subsystem for Linux (WSL)
+Virtual Machine (VirtualBox, VMware or Hyper-V)
+Raspberry Pi
+Cloud Virtual Machine
+Windows Subsystem for Linux (WSL)
 
 Recommended distributions:
 
-- Ubuntu Server LTS
-- Debian
-- Rocky Linux
-
----
-
-# Resources
+Ubuntu Server LTS
+Debian
+Rocky Linux
+Resources
 
 Additional reference material:
 
-| Resource | Link |
-|---|---|
-| Course Prerequisites | [docs/prerequisites.md](./docs/prerequisites.md) |
-| Linux Training Plan | [docs/training-plan.md](./docs/training-plan.md) |
-| Linux Command Reference | [resources/linux-commands.md](./resources/linux-commands.md) |
-
----
-
-# Course Progress
-
-| Module | Status |
-|---|---|
-| Module 00 – Introduction to Linux | ✅ Complete |
-| Module 01 – Command Line Fundamentals | ✅ Complete |
-| Module 02 – Linux Filesystem Administration | ⏳ Planned |
-| Module 03 – Users and Groups | ⏳ Planned |
-| Module 04 – Processes and Services | ⏳ Planned |
-| Module 05 – Package Management | ⏳ Planned |
-| Module 06 – Networking Fundamentals | ⏳ Planned |
-| Module 07 – Storage Management | ⏳ Planned |
-| Module 08 – Bash Scripting | ⏳ Planned |
-| Module 09 – Linux Security | ⏳ Planned |
-| Module 10 – Troubleshooting | ⏳ Planned |
-
----
-
-# Contributing
+Resource	Link
+Course Index	docs/course-index.md
+Course Prerequisites	docs/prerequisites.md
+Linux Training Plan	docs/training-plan.md
+Linux Command Reference	resources/linux-commands.md
+Course Progress
+Module	Status
+Module 00 – Introduction to Linux	✅ Complete
+Module 01 – Command Line Fundamentals	✅ Complete
+Module 02 – Linux Filesystem Administration	🚧 In Progress
+Module 03 – Users and Groups	⏳ Planned
+Module 04 – Processes and Services	⏳ Planned
+Module 05 – Package Management	⏳ Planned
+Module 06 – Networking Fundamentals	⏳ Planned
+Module 07 – Storage Management	⏳ Planned
+Module 08 – Bash Scripting	⏳ Planned
+Module 09 – Linux Security	⏳ Planned
+Module 10 – Troubleshooting	⏳ Planned
+Contributing
 
 Contributions are welcome.
 
 If you identify errors, have suggestions, or would like to add exercises, please submit a pull request or open an issue.
 
----
-
-# Licence
+Licence
 
 This repository is provided for training and educational purposes.

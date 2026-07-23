@@ -18,9 +18,9 @@ Each module builds on the previous module, gradually introducing the skills requ
 
 # Learning Path
 
-## Module 00 - Introduction to Linux
+# Module 00 - Introduction to Linux
 
-### Topics Covered
+## Topics Covered
 
 - What is Linux?
 - Linux history
@@ -31,14 +31,14 @@ Each module builds on the previous module, gradually introducing the skills requ
 - Accessing Linux systems
 - Linux terminology
 
-### Practical Exercises
+## Practical Exercises
 
 - Identify Linux distribution
 - Check kernel version
 - Explore system information
 - Identify Linux environment
 
-### Status
+## Status
 
 ✅ Complete
 
@@ -61,54 +61,44 @@ Each module builds on the previous module, gradually introducing the skills requ
 
 ### Linux Shell
 
-Commands and concepts:
+Commands:
 
 ```bash
 echo
 pwd
 ls
 cd
-```
 
 Topics:
 
-- Understanding the Linux shell
-- Bash
-- Command structure
-- Linux command prompt
-- Running commands
-
----
-
-### Files and Directories
+Understanding the Linux shell
+Bash
+Command structure
+Linux command prompt
+Running commands
+Files and Directories
 
 Commands:
 
-```bash
 mkdir
 touch
 cp
 mv
 rm
 rmdir
-```
 
 Topics:
 
-- Creating directories
-- Creating files
-- Copying files
-- Moving files
-- Removing files safely
-- Using wildcards
-
----
-
-### Viewing Files and Getting Help
+Creating directories
+Creating files
+Copying files
+Moving files
+Removing files safely
+Using wildcards
+Viewing Files and Getting Help
 
 Commands:
 
-```bash
 cat
 less
 head
@@ -117,215 +107,256 @@ man
 history
 which
 whatis
-```
 
 Topics:
 
-- Viewing file contents
-- Reviewing information
-- Finding command documentation
-- Using manual pages
-- Understanding command locations
+Viewing file contents
+Reviewing system information
+Finding command documentation
+Using manual pages
+Understanding command locations
+Practical Command Line Lab
 
----
+The module concludes with practical exercises covering:
 
-### Practical Command Line Lab
-
-The module concludes with a practical exercise covering:
-
-- Directory creation
-- File management
-- Viewing files
-- Searching documentation
-- Using command history
-- Basic administration tasks
-
----
-
-### Status
+Directory creation
+File management
+Viewing files
+Searching documentation
+Using command history
+Basic administration tasks
+Status
 
 ✅ Complete
 
----
+Module 02 - Linux Filesystem Administration
+Lessons
+Lesson	Topic	Status
+01	Linux Filesystem Hierarchy	🚧 In Progress
+02	File Permissions and Ownership	☐ Planned
+03	Finding Files and Links	☐ Planned
+04	Filesystem Administration Lab	☐ Planned
+Topics Covered
+Linux Filesystem
 
-# Module 02 - Linux Filesystem Administration
+Topics:
 
-## Topics Covered
+Linux filesystem structure
+Root filesystem (/)
+Standard directories
+File locations
+Navigation techniques
 
-- Linux filesystem hierarchy
-- Directory structure
-- File ownership
-- File permissions
-- Links
-- Filesystem navigation
+Important directories:
 
-## Planned Skills
+/
+├── bin
+├── etc
+├── home
+├── var
+├── usr
+└── tmp
+File Ownership and Permissions
 
-Participants will learn:
+Topics:
 
-- How Linux organises data
-- How permissions control access
-- How administrators manage filesystems
+Users and groups
+File ownership
+Permission model
+Read, write and execute permissions
+chmod
+chown
 
----
+Commands:
 
-# Module 03 - Users and Groups
+ls -l
+chmod
+chown
+chgrp
+Finding Files and Links
 
-## Topics Covered
+Topics:
 
-- User accounts
-- Groups
-- Password management
-- sudo
-- Administrative access
+Searching the filesystem
+Finding files
+Symbolic links
+Hard links
 
----
+Commands:
 
-# Module 04 - Processes and Services
+find
+locate
+ln
+ls -l
+Filesystem Administration Lab
 
-## Topics Covered
+Practical exercises:
 
-- Linux processes
-- Background services
-- systemd
-- Service management
-- Log analysis
+Create directory structures
+Review ownership
+Modify permissions
+Locate files
+Create links
+Troubleshoot access issues
+Status
 
----
+🚧 In Progress
 
-# Module 05 - Package Management
+Module 03 - Users and Groups
+Topics Covered
+User accounts
+Groups
+Password management
+sudo
+Administrative access
 
-## Topics Covered
+Status:
 
-- Package managers
-- Software repositories
-- Installing software
-- Updating systems
+☐ Planned
+
+Module 04 - Processes and Services
+Topics Covered
+Linux processes
+Background services
+systemd
+Service management
+Log analysis
+
+Status:
+
+☐ Planned
+
+Module 05 - Package Management
+Topics Covered
+Package managers
+Software repositories
+Installing software
+Updating systems
 
 Platforms:
 
-- Debian / Ubuntu (APT)
-- Red Hat / Rocky Linux (DNF)
+Debian / Ubuntu (APT)
+Red Hat / Rocky Linux (DNF)
 
----
+Status:
 
-# Module 06 - Networking Fundamentals
+☐ Planned
 
-## Topics Covered
+Module 06 - Networking Fundamentals
+Topics Covered
+IP addressing
+Network interfaces
+DNS
+Connectivity troubleshooting
+Remote access
 
-- IP addressing
-- Network interfaces
-- DNS
-- Connectivity troubleshooting
-- Remote access
+Status:
 
----
+☐ Planned
 
-# Module 07 - Storage Management
+Module 07 - Storage Management
+Topics Covered
+Disks
+Partitions
+Filesystems
+Mount points
+Disk usage
 
-## Topics Covered
+Status:
 
-- Disks
-- Partitions
-- Filesystems
-- Mount points
-- Disk usage
+☐ Planned
 
----
+Module 08 - Bash Scripting
+Topics Covered
+Shell scripts
+Variables
+Conditions
+Loops
+Automation
 
-# Module 08 - Bash Scripting
+Status:
 
-## Topics Covered
+☐ Planned
 
-- Shell scripts
-- Variables
-- Conditions
-- Loops
-- Automation
+Module 09 - Linux Security
+Topics Covered
+SSH security
+User permissions
+Firewalls
+Updates
+Logging
 
----
+Status:
 
-# Module 09 - Linux Security
+☐ Planned
 
-## Topics Covered
-
-- SSH security
-- User permissions
-- Firewalls
-- Updates
-- Logging
-
----
-
-# Module 10 - Troubleshooting
-
-## Topics Covered
+Module 10 - Troubleshooting
+Topics Covered
 
 Common Linux issues:
 
-- High CPU usage
-- Memory problems
-- Disk space issues
-- Service failures
-- Network problems
+High CPU usage
+Memory problems
+Disk space issues
+Service failures
+Network problems
 
 Troubleshooting approach:
 
-1. Identify symptoms
-2. Gather information
-3. Check logs
-4. Test possible causes
-5. Apply fixes
-6. Document resolution
+Identify symptoms
+Gather information
+Check logs
+Test possible causes
+Apply fixes
+Document resolution
 
----
+Status:
 
-# Final Linux Administration Lab
+☐ Planned
+
+Final Linux Administration Lab
 
 Participants will complete a practical administration challenge.
 
 Tasks may include:
 
-- Deploying a Linux system
-- Creating users
-- Installing applications
-- Configuring services
-- Securing the system
-- Troubleshooting issues
+Deploying a Linux system
+Creating users
+Installing applications
+Configuring services
+Securing the system
+Troubleshooting issues
 
----
+Status:
 
-# Recommended Training Environment
+☐ Planned
+
+Recommended Training Environment
 
 The course can be completed using:
 
-- Virtual machines
-- Raspberry Pi
-- Cloud virtual machines
-- Windows Subsystem for Linux (WSL)
-- Physical Linux systems
+Virtual machines
+Raspberry Pi
+Cloud virtual machines
+Windows Subsystem for Linux (WSL)
+Physical Linux systems
 
 Recommended distributions:
 
-- Ubuntu Server LTS
-- Debian
-- Rocky Linux
-
----
-
-# Progress Tracking
-
-| Module | Status |
-|---|---|
-| Module 00 - Introduction to Linux | ✅ Complete |
-| Module 01 - Command Line Fundamentals | ✅ Complete |
-| Module 02 - Linux Filesystem Administration | ☐ Planned |
-| Module 03 - Users and Groups | ☐ Planned |
-| Module 04 - Processes and Services | ☐ Planned |
-| Module 05 - Package Management | ☐ Planned |
-| Module 06 - Networking Fundamentals | ☐ Planned |
-| Module 07 - Storage Management | ☐ Planned |
-| Module 08 - Bash Scripting | ☐ Planned |
-| Module 09 - Linux Security | ☐ Planned |
-| Module 10 - Troubleshooting | ☐ Planned |
-| Final Linux Administration Lab | ☐ Planned |
+Ubuntu Server LTS
+Debian
+Rocky Linux
+Progress Tracking
+Module	Status
+Module 00 - Introduction to Linux	✅ Complete
+Module 01 - Command Line Fundamentals	✅ Complete
+Module 02 - Linux Filesystem Administration	🚧 In Progress
+Module 03 - Users and Groups	☐ Planned
+Module 04 - Processes and Services	☐ Planned
+Module 05 - Package Management	☐ Planned
+Module 06 - Networking Fundamentals	☐ Planned
+Module 07 - Storage Management	☐ Planned
+Module 08 - Bash Scripting	☐ Planned
+Module 09 - Linux Security	☐ Planned
+Module 10 - Troubleshooting	☐ Planned
+Final Linux Administration Lab	☐ Planned
