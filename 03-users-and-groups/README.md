@@ -42,10 +42,10 @@ By completing this module you will be able to:
 
 | Lesson | Topic | Status |
 |---------|-------|--------|
-| 01 | [Understanding Linux Users and Groups](./lesson-01-understanding-users-and-groups.md) | 🚧 In Progress |
-| 02 | [Managing Users and Groups](./lesson-02-managing-users-and-groups.md) | ⏳ Planned |
-| 03 | [Passwords and Administrative Access](./lesson-03-passwords-and-sudo.md) | ⏳ Planned |
-| 04 | [Users and Groups Practical Lab](./lesson-04-users-and-groups-lab.md) | ⏳ Planned |
+| 01 | [Understanding Linux Users and Groups](./lesson-01-understanding-users-and-groups.md) | ✅ Complete|
+| 02 | [Managing Users and Groups](./lesson-02-managing-users-and-groups.md) | ✅ Complete |
+| 03 | [Passwords and Administrative Access](./lesson-03-passwords-and-sudo.md) | ✅ Complete |
+| 04 | [Users and Groups Practical Lab](./lesson-04-users-and-groups-lab.md) | ✅ Complete |
 
 ---
 
