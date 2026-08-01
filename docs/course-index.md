@@ -112,7 +112,7 @@ Topics covered:
 
 Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 
@@ -128,7 +128,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+🚧 In Progres
 
 ---
 
@@ -260,8 +260,8 @@ Status:
 | Module 01 - Command Line Fundamentals | ✅ Complete |
 | Module 02 - Linux Filesystem Administration | ✅ Complete |
 | Module 03 - Users and Groups | 🚧 In Progress |
-| Module 04 - Processes and Services | ⏳ Planned |
-| Module 05 - Package Management | ⏳ Planned |
+| Module 04 - Processes and Services | ✅ Complete |
+| Module 05 - Package Management | 🚧 In Progress |
 | Module 06 - Networking Fundamentals | ⏳ Planned |
 | Module 07 - Storage Management | ⏳ Planned |
 | Module 08 - Bash Scripting | ⏳ Planned |
