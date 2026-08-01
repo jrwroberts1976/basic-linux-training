@@ -69,11 +69,12 @@ Status:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | [Linux Filesystem Hierarchy](../02-filesystem/lesson-01-filesystem-hierarchy.md) | ✅ Complete |
+| 01 | [Linux Filesystem Hierarchy](../02-filesystem/lesson-01-linux-filesystem-hierarchy.md) | ✅ Complete |
 | 02 | [File Permissions and Ownership](../02-filesystem/lesson-02-file-permissions-and-ownership.md) | ✅ Complete |
 | 03 | [Finding Files and Links](../02-filesystem/lesson-03-finding-files-and-links.md) | ✅ Complete |
-| 04 | [Filesystem Administration Lab](../02-filesystem/lesson-04-filesystem-administration-lab.md) | ✅ Complete |
-Topics covered:
+| 04 | [Filesystem Administration Lab](../02-filesystem/lesson-04-filesystem-lab.md) | ✅ Complete |
+
+## Topics covered:
 
 - Linux filesystem layout
 - Directory structure
@@ -96,7 +97,7 @@ Status:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | [Linux Users and Groups](../03-users-and-groups/lesson-01-linux-users-and-groups.md) | ✅ Complete
+| 01 | [Linux Users and Groups](../03-users-and-groups/lesson-01-understanding-users-and-groups.md) | ✅ Complete
 | 02 | User Administration | ✅ Complete |
 | 03 | Group Administration | ✅ Complete |
 | 04 | sudo and Administrative Access | ✅ Complete |

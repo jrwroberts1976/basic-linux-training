@@ -222,7 +222,7 @@ Additional reference material:
 | Course Index | [docs/course-index.md](./docs/course-index.md) |
 | Course Prerequisites | [docs/prerequisites.md](./docs/prerequisites.md) |
 | Linux Training Plan | [docs/training-plan.md](./docs/training-plan.md) |
-| Linux Command Reference | [resources/linux-commands.md](./resources/linux-commands.md) |
+| Linux Command Reference | [resources/linux-command-reference.md](./resources/linux-command-reference.md) |
 
 ---
 
