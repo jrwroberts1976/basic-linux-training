@@ -95,7 +95,7 @@ pkill
 jobs
 bg
 fg
-```bash
+```
 
 Systemd and Service Management
 
@@ -125,7 +125,7 @@ Commands:
 ```bash
 journalctl
 dmesg
-```bash
+```
 Practical Lab
 
 The module concludes with a practical administration exercise covering:
