@@ -17,4 +17,3 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.REPO_DISPATCH_TOKEN }}" \
             https://api.github.com/repos/jrwroberts1976/docker-env/dispatches \
             -d '{"event_type":"content-updated"}'
-
