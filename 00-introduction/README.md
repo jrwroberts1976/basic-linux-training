@@ -1,6 +1,14 @@
 # Module 00 - Introduction to Linux
 
-## Overview
+> **Estimated time:** 30–60 minutes  
+>
+> **Difficulty:** Beginner  
+>
+> **Hands-on exercises:** Yes
+
+---
+
+# Overview
 
 Welcome to the **Basic Linux Training** course.
 
@@ -36,10 +44,8 @@ By completing this module, you will understand:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 0 | [Linux Overview](./linux-overview.md) | ✅ Complete |
-| 1 | [01 Command Line](../01-command-line/) | ✅ Complete |
-| 2 | [02 Filesystem](../02-filesystem/) | ✅ Complete |
-| 03 | [Users and Groups](./03-users-and-groups/README.md) | 🚧 In Progress |
+| 01 | [Linux Overview](./linux-overview.md) | ✅ Complete |
+
 ---
 
 # Topics Covered
@@ -133,11 +139,9 @@ You will practice:
 
 ---
 
-# Estimated Time
+# Completion Status
 
-Approximately:
-
-**30–60 minutes**
+✅ Complete
 
 ---
 
