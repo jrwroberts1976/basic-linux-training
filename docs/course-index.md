@@ -282,4 +282,3 @@ Status:
 | Module 09 - Linux Security | ⏳ Planned |
 | Module 10 - Troubleshooting | ⏳ Planned |
 | Final Linux Administration Lab | ⏳ Planned |
-<!-- CI/CD test -->
