@@ -75,7 +75,7 @@ ps
 pstree
 pgrep
 top
-```bash
+```
 
 Managing Linux Processes
 
