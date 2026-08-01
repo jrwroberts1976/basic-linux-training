@@ -233,8 +233,8 @@ Additional reference material:
 | Module 00 - Introduction to Linux | ✅ Complete |
 | Module 01 - Command Line Fundamentals | ✅ Complete |
 | Module 02 - Linux Filesystem Administration | ✅ Complete |
-| Module 03 - Users and Groups | 🚧 In Progress |
-| Module 04 - Processes and Services | ⏳ Planned |
+| Module 03 - Users and Groups | ✅ Complete |
+| Module 04 - Processes and Services | ✅ Complete |
 | Module 05 - Package Management | ⏳ Planned |
 | Module 06 - Networking Fundamentals | ⏳ Planned |
 | Module 07 - Storage Management | ⏳ Planned |

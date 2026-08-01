@@ -212,7 +212,7 @@ By the end of this module you should understand:
 
 Current Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 
