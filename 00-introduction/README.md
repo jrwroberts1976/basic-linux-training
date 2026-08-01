@@ -39,7 +39,7 @@ By completing this module, you will understand:
 | 0 | [Linux Overview](./linux-overview.md) | ✅ Complete |
 | 1 | [01 Command Line](../01-command-line/) | ✅ Complete |
 | 2 | [02 Filesystem](../02-filesystem/) | ✅ Complete |
-
+| 03 | [Users and Groups](./03-users-and-groups/README.md) | 🚧 In Progress |
 ---
 
 # Topics Covered
