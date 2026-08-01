@@ -128,18 +128,31 @@ Topics covered:
 
 Status:
 
-🚧 In Progres
+✅ Complete
 
 ---
 
 # Module 05 - Package Management
 
-Topics covered:
+## Lessons
 
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Package Managers | 🚧 In Progress |
+| 02 | Installing Software | ☐ Planned |
+| 03 | Updating Systems | ☐ Planned |
+| 04 | Software Repositories | ☐ Planned |
+| 05 | Package Management Administration Lab | ☐ Planned |
+
+## Topics Covered
+
+- Package management concepts
 - Package managers
 - Software repositories
-- Installing software
+- Installing applications
+- Removing software
 - Updating systems
+- Managing dependencies
 
 Platforms:
 
@@ -148,7 +161,7 @@ Platforms:
 
 Status:
 
-⏳ Planned
+🚧 In Progress
 
 ---
 
