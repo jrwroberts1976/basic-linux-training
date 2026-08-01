@@ -75,6 +75,8 @@ ps
 pstree
 pgrep
 top
+```bash
+
 Managing Linux Processes
 
 Topics:
@@ -87,12 +89,14 @@ Background jobs
 Foreground jobs
 
 Commands:
-
+```bash
 kill
 pkill
 jobs
 bg
 fg
+```bash
+
 Systemd and Service Management
 
 Topics:
@@ -118,9 +122,10 @@ System events
 Troubleshooting service failures
 
 Commands:
-
+```bash
 journalctl
 dmesg
+```bash
 Practical Lab
 
 The module concludes with a practical administration exercise covering:
