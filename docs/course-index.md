@@ -69,11 +69,10 @@ Status:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | [Linux Filesystem Hierarchy](../02-filesystem/lesson-01-filesystem-hierarchy.md) | 🚧 In Progress |
-| 02 | [File Permissions and Ownership](../02-filesystem/lesson-02-file-permissions-and-ownership.md) | ☐ Planned |
-| 03 | [Finding Files and Links](../02-filesystem/lesson-03-finding-files-and-links.md) | ☐ Planned |
-| 04 | [Filesystem Administration Lab](../02-filesystem/lesson-04-filesystem-administration-lab.md) | ☐ Planned |
-
+| 01 | [Linux Filesystem Hierarchy](../02-filesystem/lesson-01-filesystem-hierarchy.md) | ✅ Complete |
+| 02 | [File Permissions and Ownership](../02-filesystem/lesson-02-file-permissions-and-ownership.md) | ✅ Complete |
+| 03 | [Finding Files and Links](../02-filesystem/lesson-03-finding-files-and-links.md) | ✅ Complete |
+| 04 | [Filesystem Administration Lab](../02-filesystem/lesson-04-filesystem-administration-lab.md) | ✅ Complete |
 Topics covered:
 
 - Linux filesystem layout
@@ -87,23 +86,33 @@ Topics covered:
 
 Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 
 # Module 03 - Users and Groups
+
+## Lessons
+
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | [Linux Users and Groups](../03-users-and-groups/lesson-01-linux-users-and-groups.md) | 🚧 In Progress |
+| 02 | User Administration | ⏳ Planned |
+| 03 | Group Administration | ⏳ Planned |
+| 04 | sudo and Administrative Access | ⏳ Planned |
+| 05 | Users and Groups Lab | ⏳ Planned |
 
 Topics covered:
 
 - User accounts
 - Groups
 - Password management
-- sudo
+- `sudo`
 - Administrative access
 
 Status:
 
-⏳ Planned
+🚧 In Progress
 
 ---
 
