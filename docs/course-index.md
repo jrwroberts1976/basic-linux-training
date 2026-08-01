@@ -96,11 +96,11 @@ Status:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | [Linux Users and Groups](../03-users-and-groups/lesson-01-linux-users-and-groups.md) | 🚧 In Progress |
-| 02 | User Administration | ⏳ Planned |
-| 03 | Group Administration | ⏳ Planned |
-| 04 | sudo and Administrative Access | ⏳ Planned |
-| 05 | Users and Groups Lab | ⏳ Planned |
+| 01 | [Linux Users and Groups](../03-users-and-groups/lesson-01-linux-users-and-groups.md) | ✅ Complete
+| 02 | User Administration | ✅ Complete |
+| 03 | Group Administration | ✅ Complete |
+| 04 | sudo and Administrative Access | ✅ Complete |
+| 05 | Users and Groups Lab | ✅ Complete |
 
 Topics covered:
 
