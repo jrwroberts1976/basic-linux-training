@@ -494,7 +494,7 @@ You should now understand:
 
 Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 

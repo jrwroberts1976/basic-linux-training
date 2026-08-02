@@ -52,7 +52,7 @@ By completing this module you will be able to:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | Understanding Linux Processes | 🚧 In Progress |
+| 01 | Understanding Linux Processes | ✅ Complete |
 | 02 | Managing Linux Processes | ☐ Planned |
 | 03 | Systemd and Service Management | ☐ Planned |
 | 04 | Logs and journalctl | ☐ Planned |

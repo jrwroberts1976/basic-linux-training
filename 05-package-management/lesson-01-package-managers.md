@@ -52,7 +52,7 @@ By completing this module you will be able to:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | Understanding Linux Package Managers | 🚧 In Progress |
+| 01 | Understanding Linux Package Managers | ✅ Complete |
 | 02 | Installing Software Packages | ☐ Planned |
 | 03 | Updating Linux Systems | ☐ Planned |
 | 04 | Software Repositories | ☐ Planned |
@@ -211,7 +211,7 @@ By the end of this module you should understand:
 
 Current Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 

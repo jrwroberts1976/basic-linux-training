@@ -139,7 +139,7 @@ Status:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | Package Managers | 🚧 In Progress |
+| 01 | Package Managers | ✅ Complete |
 | 02 | Installing Software | ☐ Planned |
 | 03 | Updating Systems | ☐ Planned |
 | 04 | Software Repositories | ☐ Planned |
@@ -162,7 +162,7 @@ Platforms:
 
 Status:
 
-🚧 In Progress
+✅ Complete
 
 ---
 
@@ -275,7 +275,7 @@ Status:
 | Module 02 - Linux Filesystem Administration | ✅ Complete |
 | Module 03 - Users and Groups | ✅ Complete |
 | Module 04 - Processes and Services | ✅ Complete |
-| Module 05 - Package Management | 🚧 In Progress |
+| Module 05 - Package Management | ✅ Complete |
 | Module 06 - Networking Fundamentals | ⏳ Planned |
 | Module 07 - Storage Management | ⏳ Planned |
 | Module 08 - Bash Scripting | ⏳ Planned |

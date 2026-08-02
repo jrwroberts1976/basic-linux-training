@@ -256,7 +256,7 @@ Practical exercises:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | Understanding Users and Groups | 🚧 In Progress |
+| 01 | Understanding Users and Groups | ✅ Complete |
 | 02 | Managing Users and Groups | ☐ Planned |
 | 03 | Passwords and sudo | ☐ Planned |
 | 04 | Users and Groups Administration Lab | ☐ Planned |
