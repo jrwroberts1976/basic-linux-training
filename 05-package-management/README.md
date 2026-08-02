@@ -53,10 +53,10 @@ By completing this module you will be able to:
 | Lesson | Topic | Status |
 |---|---|---|
 | 01 | Understanding Linux Package Managers | ✅ Complete |
-| 02 | Installing Software Packages | ☐ Planned |
-| 03 | Updating Linux Systems | ☐ Planned |
-| 04 | Software Repositories | ☐ Planned |
-| 05 | Package Management Administration Lab | ☐ Planned |
+| 02 | Installing Software Packages | ✅ Complete |
+| 03 | Updating Linux Systems | ✅ Complete |
+| 04 | Software Repositories | ✅ Complete |
+| 05 | Package Management Administration Lab | ✅ Complete |
 
 ---
 
