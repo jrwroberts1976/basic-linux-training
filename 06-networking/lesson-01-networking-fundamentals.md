@@ -1,48 +1,67 @@
-Lesson 01 - Networking Fundamentals
-Overview
+# Lesson 01 - Networking Fundamentals
 
-Networking is a core skill for Linux administrators, cloud engineers, and DevOps professionals.
+> **Estimated time:** 60–90 minutes
+>
+> **Prerequisites:**
+> - Module 01 – Command Line Fundamentals
+>
+> **Difficulty:** Beginner
+>
+> **Hands-on exercises:** Yes
 
-Linux systems rely heavily on networking for communication between servers, applications, containers, and cloud platforms.
+---
 
-This lesson introduces the fundamental concepts required to understand how devices communicate across networks.
+# Overview
 
-Topics Covered
-Network fundamentals
-IP addresses
-IPv4 and IPv6
-Subnets
-MAC addresses
-Default gateways
-DNS
-Ports and protocols
-Network troubleshooting commands
-Learning Objectives
+Networking is a fundamental skill for Linux administrators, cloud engineers, and DevOps professionals.
 
-By the end of this lesson you should understand:
+Linux systems rely heavily on networking to communicate with other systems, access services, transfer data, and support applications.
 
-How computers communicate across networks
-The difference between IP addresses and MAC addresses
-How subnetting works at a basic level
-The purpose of gateways and DNS
-Common network protocols
-How to troubleshoot basic connectivity issues in Linux
-What Is a Network?
+Understanding networking fundamentals allows administrators to:
 
-A network allows devices to communicate and exchange data.
+- Understand how systems communicate
+- Troubleshoot connectivity issues
+- Configure Linux network settings
+- Support servers and cloud environments
+- Work with containers and distributed systems
+
+This lesson introduces the basic concepts required before learning IP addressing, subnetting, and network troubleshooting.
+
+---
+
+# Learning Objectives
+
+By completing this lesson you will understand:
+
+- What a network is
+- How devices communicate
+- The purpose of IP addresses
+- The role of MAC addresses
+- The difference between local and remote networks
+- The purpose of gateways
+- How DNS works
+- What ports and protocols are
+- Basic Linux networking commands
+
+---
+
+# What Is a Network?
+
+A network is a collection of connected devices that can communicate and exchange information.
 
 Examples of networked devices:
 
-Computers
-Servers
-Routers
-Switches
-Mobile devices
-IoT devices
-Cloud infrastructure
+- Computers
+- Servers
+- Routers
+- Switches
+- Mobile devices
+- IoT devices
+- Cloud infrastructure
 
 A simple network:
 
+```text
 Computer
     |
  Switch
@@ -58,126 +77,177 @@ Applications
 Services
 Internet access
 Storage
+Types of Networks
+
+Networks can be classified by their size and purpose.
+
+Local Area Network (LAN)
+
+A LAN connects devices within a small area.
+
+Examples:
+
+Home network
+Office network
+Data centre network
+
+Example:
+
+Laptop
+   |
+ Switch
+   |
+Server
+Wide Area Network (WAN)
+
+A WAN connects networks across larger distances.
+
+Examples:
+
+Company sites connected together
+Internet connections
+Cloud networks
+
+Example:
+
+Office Network
+       |
+       |
+ Internet
+       |
+       |
+Cloud Network
+How Devices Communicate
+
+Devices communicate using agreed rules called protocols.
+
+Communication requires:
+
+A source device
+A destination device
+An addressing system
+A communication protocol
+
+Example:
+
+Linux Server
+
+192.168.1.50
+
+        |
+        |
+        Network
+
+        |
+        |
+
+Database Server
+
+192.168.1.100
+
+The devices use addresses to identify where data should be sent.
+
 IP Addresses
 
 An IP address identifies a device on a network.
 
-Example IPv4 address:
-
-192.168.1.50
-
-An IP address contains:
-
-Network portion
-Host portion
-
 Example:
 
 192.168.1.50
 
-Network: 192.168.1
-Host:    50
+IP addresses allow systems to:
 
-Common private network ranges:
+Send data to the correct device
+Identify network locations
+Communicate across networks
 
-Range	Purpose
-10.0.0.0/8	Private networks
-172.16.0.0/12	Private networks
-192.168.0.0/16	Home and small business networks
-
-Example home network:
-
-Router:  192.168.1.1
-Laptop:  192.168.1.20
-Server:  192.168.1.50
-Printer: 192.168.1.100
-IPv4 and IPv6
-IPv4
-
-IPv4 uses 32-bit addresses.
+IPv4 addresses are made up of four numbers separated by periods.
 
 Example:
 
-192.168.1.50
+192 . 168 . 1 . 50
 
-IPv4 has a limited number of available addresses.
+Each section is called an octet.
 
-IPv6
+Each octet has a range of:
 
-IPv6 uses 128-bit addresses.
+0 - 255
 
-Example:
+IP addressing and subnetting are covered in detail in:
 
-2001:db8:abcd::1
-
-IPv6 provides a much larger address space and was designed to replace IPv4.
-
+Lesson 02 - IP Addressing and Subnetting
 MAC Addresses
 
-A MAC address identifies a network interface at the hardware level.
+A MAC address identifies a physical network interface.
 
 Example:
 
 00:1A:2B:3C:4D:5E
 
-Characteristics:
+MAC addresses:
 
-Assigned to network hardware
-Used by switches
-Operates at Layer 2 of the OSI model
+Are assigned to network hardware
+Are used by switches
+Operate at Layer 2 of the OSI model
 
 Example:
 
-Laptop
-  |
+Computer
+
 MAC Address
-  |
-Switch
-  |
-Router
-Subnets
 
-A subnet divides a network into smaller sections.
+      |
+
+Network Switch
+
+      |
+
+Router
+
+A switch uses MAC addresses to deliver traffic inside a local network.
+
+Routers and Default Gateways
+
+A router connects different networks together.
 
 Example:
+
+Home Network
 
 192.168.1.0/24
 
-This means:
+        |
 
-Network: 192.168.1.0
-Available hosts: 192.168.1.1 - 192.168.1.254
-Broadcast: 192.168.1.255
+     Router
 
-A /24 network contains:
+        |
 
-256 total addresses
-254 usable addresses
-Default Gateway
+ Internet
 
-The default gateway is the device that forwards traffic to other networks.
+The router acts as the default gateway.
 
-In most home networks this is the router.
+The default gateway is where a device sends traffic that is not on the local network.
 
 Example:
 
-Laptop
-192.168.1.20
+Linux Server
 
-      |
-      |
-Gateway
+192.168.1.50
+
+
+Default Gateway
+
 192.168.1.1
 
-      |
-      |
-Internet
+Traffic to another local device stays on the LAN.
 
-Without a gateway, a device can only communicate with its local network.
+Traffic to the internet goes through the gateway.
 
 DNS
 
-DNS (Domain Name System) converts names into IP addresses.
+DNS stands for Domain Name System.
+
+DNS converts human-readable names into IP addresses.
 
 Humans use:
 
@@ -187,32 +257,24 @@ Computers use:
 
 93.184.216.34
 
-DNS lookup process:
+DNS allows users and applications to access services without remembering IP addresses.
 
-User
- |
-Domain Name
- |
-DNS Server
- |
-IP Address
+Common DNS servers:
 
-Common public DNS servers:
+Provider	Address
+Google DNS	8.8.8.8
+Cloudflare DNS	1.1.1.1
+Ports and Services
 
-Google DNS:
-8.8.8.8
+A server can run multiple network services at the same time.
 
-Cloudflare DNS:
-1.1.1.1
-Ports and Protocols
-
-Ports identify network services running on a system.
+Ports identify individual services.
 
 Example:
 
 192.168.1.50:22
 
-Means:
+This means:
 
 IP address: 192.168.1.50
 Port: 22
@@ -226,18 +288,22 @@ Port	Protocol	Purpose
 443	HTTPS	Secure web traffic
 3306	MySQL	Database
 5432	PostgreSQL	Database
-Common Network Protocols
+Network Protocols
+
+Protocols define how devices communicate.
+
 TCP
 
 Transmission Control Protocol.
 
-Features:
+TCP provides:
 
-Reliable delivery
-Connection based
-Ensures packets arrive correctly
+Reliable communication
+Error checking
+Ordered delivery
+Connection management
 
-Examples:
+Common TCP services:
 
 SSH
 HTTPS
@@ -246,103 +312,100 @@ UDP
 
 User Datagram Protocol.
 
-Features:
+UDP provides:
 
 Faster communication
-No connection tracking
-Does not guarantee delivery
+Lower overhead
+No guaranteed delivery
 
-Examples:
+Common UDP services:
 
 DNS queries
-Streaming
+Video streaming
 Voice communication
 Linux Networking Commands
+
+Linux provides several commands for viewing and troubleshooting networking.
+
 View Network Interfaces
-ip addr
 
-Shows:
+The ip address command displays network interfaces and IP addresses.
 
-Network interfaces
-IP addresses
-Network configuration
+ip address
+
+Example information shown:
+
+eth0
+
+inet 192.168.1.50/24
 View Routing Information
+
+The routing table shows where traffic is sent.
+
 ip route
 
 Example:
 
-default via 192.168.1.1
+default via 192.168.1.1 dev eth0
 Test Connectivity
 
-Test an IP address:
+The ping command tests whether another device can be reached.
 
 ping 8.8.8.8
 
-Test DNS resolution:
+Example uses:
 
-ping google.com
+Testing network connectivity
+Checking if a host responds
 DNS Lookup
 
-Using nslookup:
+The nslookup command checks DNS resolution.
 
 nslookup google.com
-
-Using dig:
-
-dig google.com
-Check Open Ports
-ss -tulnp
-
-Shows:
-
-Listening services
-Ports
-Processes
-Test Web Services
-curl http://example.com
-
-Useful for testing HTTP connectivity.
-
-Network Troubleshooting Process
-
-When a Linux system cannot access a service:
-
-Step 1 - Check Network Interface
-ip addr
-
-Check that the interface is active.
-
-Step 2 - Check IP Address
-
-Confirm the system has a valid IP address.
 
 Example:
 
-192.168.1.50
-Step 3 - Check Default Gateway
-ip route
+Name:
 
-Confirm a route exists.
+google.com
 
-Step 4 - Test IP Connectivity
-ping 8.8.8.8
-Step 5 - Test DNS
-nslookup google.com
-Step 6 - Check Services
+Address:
+
+142.250.x.x
+View Network Connections
+
+The ss command shows network sockets and listening services.
+
 ss -tulnp
-Practical Exercises
-Exercise 1 - View Network Configuration
+
+This can show:
+
+Open ports
+Running network services
+Listening applications
+Practical Lab
+
+The objective of this lab is to explore basic networking information on a Linux system.
+
+Tasks:
+
+Identify network interfaces
+View IP addresses
+View routing information
+Test connectivity
+Check network services
+Lab 1 - View Network Interfaces
 
 Run:
 
-ip addr
+ip address
 
-Record:
+Identify:
 
 Network interface name
 IP address
-Network mask
-Exercise 2 - View Routing
+MAC address
+Lab 2 - View Routing Information
 
 Run:
 
@@ -352,17 +415,17 @@ Identify:
 
 Default gateway
 Network routes
-Exercise 3 - Test DNS
+Active interface
+Lab 3 - Test Connectivity
 
-Run:
+Test internet connectivity:
 
-nslookup google.com
+ping 8.8.8.8
 
-Identify:
+Test DNS:
 
-DNS server used
-Returned IP address
-Exercise 4 - Check Listening Services
+ping google.com
+Lab 4 - View Network Services
 
 Run:
 
@@ -370,31 +433,35 @@ ss -tulnp
 
 Identify:
 
-Running network services
-Ports in use
-Administrator Challenge
+Listening services
+Open ports
+Running applications
+Lab Challenge
 
-A Linux server cannot access the internet.
+A Linux server cannot access a website.
 
-Describe the troubleshooting steps:
+Describe the troubleshooting process:
 
 Check the network interface
-Check the IP address
+Confirm the IP address
 Check the default gateway
-Test external IP connectivity
+Test network connectivity
 Test DNS resolution
+Check listening services
 Check firewall rules
-Check running services
-Key Commands
-Command	Purpose
-ip addr	Show network interfaces
-ip route	Show routing information
-ping	Test connectivity
-nslookup	DNS lookup
-dig	Detailed DNS lookup
-ss	Show network sockets
-curl	Test HTTP services
-traceroute	Trace network path
-Lesson Status
+Summary
 
-✅ Completed
+In this lesson you learned:
+
+What networks are
+How devices communicate
+The purpose of IP addresses
+The role of MAC addresses
+How routers and gateways work
+How DNS translates names into addresses
+How ports identify services
+Basic Linux networking commands
+
+The next lesson covers:
+
+Lesson 02 - IP Addressing and Subnetting
