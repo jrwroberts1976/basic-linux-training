@@ -1,81 +1,199 @@
 # Module 06 - Networking
 
-## Overview
+> **Estimated time:** 6–8 hours
+>
+> **Prerequisites:**
+> - Module 00 – Introduction to Linux
+> - Module 01 – Command Line Fundamentals
+> - Module 02 – Linux Filesystem Administration
+> - Module 03 – Users and Groups
+> - Module 04 – Processes and Services
+> - Module 05 – Package Management
+>
+> **Difficulty:** Beginner to Intermediate
+>
+> **Hands-on exercises:** Yes
 
-Networking is a fundamental skill for Linux administrators and engineers.
+---
 
-Linux systems are rarely isolated. They communicate with other servers, services, users, and cloud platforms through networks. Understanding networking concepts is essential for troubleshooting, security, automation, and infrastructure management.
+# Overview
 
-This module introduces the networking concepts required by a Linux administrator.
+Networking is a core Linux administration skill.
 
-## Learning Objectives
+Linux systems rarely operate in isolation. Servers, applications, cloud platforms, containers, and users all depend on reliable network communication.
 
-By completing this module, you will understand:
+A Linux administrator needs to understand how systems communicate, how networks are configured, and how to troubleshoot connectivity problems.
 
+This module introduces the networking concepts and practical tools required to support Linux systems in modern infrastructure environments.
+
+---
+
+# Learning Objectives
+
+By completing this module you will understand:
+
+- How computer networks operate
 - How Linux systems communicate across networks
-- Network interfaces and configuration
-- IP addressing fundamentals
-- Ports and network services
+- The role of network interfaces
+- MAC addresses and IP addresses
+- IPv4 addressing and subnetting
+- Routing and default gateways
 - DNS and name resolution
-- Basic network troubleshooting techniques
+- Network troubleshooting techniques
+- Linux networking commands and tools
 
-## Lessons
+---
 
-### Lesson 01 - Networking Fundamentals
+# Lessons
 
-Introduction to:
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Networking Fundamentals | ✅ Complete |
+| 02 | IP Addressing and Subnetting | ✅ Complete |
+| 03 | Network Troubleshooting | ✅ Complete |
+| 04 | Networking Administration Lab | ✅ Complete |
 
-- Network communication
+---
+
+# Topics Covered
+
+## Networking Fundamentals
+
+Topics:
+
+- What is a network?
+- How computers communicate
 - Network interfaces
 - MAC addresses
-- Ports and services
+- IP addresses
 - TCP and UDP
+- Ports and services
 
-### Lesson 02 - IP Addressing
+Commands covered:
 
-Learn about:
+```bash
+ip address
+ip link
+```
+
+---
+
+## IP Addressing and Subnetting
+
+Topics:
 
 - IPv4 addressing
-- Private and public IP addresses
+- Private and public addresses
+- Static and dynamic addressing
 - Subnet masks
+- CIDR notation
+- Network addresses
+- Broadcast addresses
 - Default gateways
-- Network configuration
 
-### Lesson 03 - Network Troubleshooting
+Commands covered:
 
-Learn how to use common Linux networking tools:
+```bash
+ip address
+ip route
+```
 
-- ip
-- ping
-- ss
-- traceroute
-- dig
-- nslookup
+---
 
-### Lesson 04 - Networking Lab
+## Network Troubleshooting
 
-Practical exercises covering:
+Topics:
 
-- Viewing network configuration
+- Troubleshooting methodology
+- Checking interfaces
 - Testing connectivity
-- Investigating DNS issues
-- Identifying network services
+- Routing investigation
+- DNS troubleshooting
+- Service validation
+- Firewall investigation
 
-## Prerequisites
+Commands covered:
 
-Before starting this module, you should understand:
+```bash
+ip address
+ip route
+ping
+nslookup
+dig
+ss
+curl
+```
 
-- Linux command line fundamentals
-- Filesystem navigation
-- Users and permissions
-- Managing processes and services
+---
 
-## Next Steps
+## Networking Administration Lab
 
-After completing this module, learners can progress to:
+The practical lab brings together the skills covered throughout this module.
 
-- Storage management
-- Shell scripting
-- Linux security
-- Cloud networking
-- Container networking
+Tasks include:
+
+- Reviewing Linux network configuration
+- Identifying network interfaces
+- Analysing IP addressing
+- Testing connectivity
+- Troubleshooting DNS
+- Checking network services
+- Documenting findings
+
+---
+
+# Practical Skills Developed
+
+After completing this module you will be able to:
+
+- Identify Linux network configuration
+- Understand how systems communicate
+- Troubleshoot common network problems
+- Validate network services
+- Support Linux servers in enterprise environments
+
+---
+
+# Module Progress
+
+Current Status:
+
+✅ Complete
+
+---
+
+# Completed Lessons
+
+- Lesson 01 - Networking Fundamentals
+- Lesson 02 - IP Addressing and Subnetting
+- Lesson 03 - Network Troubleshooting
+- Lesson 04 - Networking Administration Lab
+
+---
+
+# Skills Demonstrated
+
+This module has developed practical Linux networking skills including:
+
+- Understanding network communication
+- Managing Linux network interfaces
+- Working with IP addressing and subnetting
+- Troubleshooting connectivity issues
+- Validating DNS resolution
+- Checking network services
+- Documenting technical investigations
+
+---
+
+# Next Module
+
+## Module 07 - Storage
+
+You will learn:
+
+- Disk management
+- Linux filesystems
+- Mounting storage
+- Partitioning
+- Logical Volume Management (LVM)
+- Storage troubleshooting

@@ -63,7 +63,7 @@ Each module builds on the previous module, gradually introducing the skills requ
 
 Topics:
 
-- Understanding the Linux shell
+- Understanding Linux shell
 - Bash
 - Command structure
 - Linux command prompt
@@ -152,10 +152,10 @@ The module concludes with practical exercises covering:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| 01 | Linux Filesystem Hierarchy | 🚧 In Progress |
-| 02 | File Permissions and Ownership | ☐ Planned |
-| 03 | Finding Files and Links | ☐ Planned |
-| 04 | Filesystem Administration Lab | ☐ Planned |
+| 01 | Linux Filesystem Hierarchy | ✅ Complete |
+| 02 | File Permissions and Ownership | ✅ Complete |
+| 03 | Finding Files and Links | ✅ Complete |
+| 04 | Filesystem Administration Lab | ✅ Complete |
 
 ---
 
@@ -239,10 +239,9 @@ Practical exercises:
 
 ### Status
 
-🚧 In Progress
+✅ Complete
 
 ---
-
 # Module 03 - Users and Groups
 
 ## Topics Covered
@@ -253,9 +252,18 @@ Practical exercises:
 - sudo
 - Administrative access
 
+## Lessons
+
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Understanding Users and Groups | 🚧 In Progress |
+| 02 | Managing Users and Groups | ☐ Planned |
+| 03 | Passwords and sudo | ☐ Planned |
+| 04 | Users and Groups Administration Lab | ☐ Planned |
+
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -269,9 +277,19 @@ Practical exercises:
 - Service management
 - Log analysis
 
+## Lessons
+
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Understanding Processes | ✅ Complete |
+| 02 | Managing Processes | ✅ Complete |
+| 03 | systemd and Service Management | ✅ Complete |
+| 04 | Logs and journalctl | ✅ Complete |
+| 05 | Processes and Services Lab | ✅ Complete |
+
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -289,25 +307,94 @@ Platforms:
 - Debian / Ubuntu (APT)
 - Red Hat / Rocky Linux (DNF)
 
+## Lessons
+
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Understanding Linux Package Managers | ✅ Complete |
+| 02 | Installing Software Packages | ✅ Complete |
+| 03 | Updating Linux Systems | ✅ Complete |
+| 04 | Software Repositories | ✅ Complete |
+| 05 | Package Management Administration Lab | ✅ Complete |
+
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
-# Module 06 - Networking Fundamentals
+# Module 06 - Networking
+
+## Lessons
+
+| Lesson | Topic | Status |
+|---|---|---|
+| 01 | Networking Fundamentals | ✅ Complete |
+| 02 | IP Addressing and Subnetting | ✅ Complete |
+| 03 | Network Troubleshooting | ✅ Complete |
+| 04 | Networking Administration Lab | ✅ Complete |
+
+---
 
 ## Topics Covered
 
-- IP addressing
+### Networking Fundamentals
+
+Topics:
+
+- Network communication
 - Network interfaces
-- DNS
-- Connectivity troubleshooting
-- Remote access
+- MAC addresses
+- IP addresses
+- TCP and UDP
+- Ports and services
+
+---
+
+### IP Addressing and Subnetting
+
+Topics:
+
+- IPv4 addressing
+- Private and public addresses
+- Static and dynamic addressing
+- Subnet masks
+- CIDR notation
+- Network addresses
+- Broadcast addresses
+- Default gateways
+
+---
+
+### Network Troubleshooting
+
+Topics:
+
+- Troubleshooting methodology
+- Checking interfaces
+- Testing connectivity
+- Routing investigation
+- DNS troubleshooting
+- Service validation
+- Firewall investigation
+
+---
+
+### Networking Administration Lab
+
+Practical exercises:
+
+- Review Linux network configuration
+- Identify network interfaces
+- Analyse IP addressing
+- Test connectivity
+- Troubleshoot DNS
+- Check network services
+- Document findings
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -430,10 +517,10 @@ Recommended distributions:
 | Module 00 - Introduction to Linux | ✅ Complete |
 | Module 01 - Command Line Fundamentals | ✅ Complete |
 | Module 02 - Linux Filesystem Administration | ✅ Complete |
-| Module 03 - Users and Groups | 🚧 In Progress |
-| Module 04 - Processes and Services | ☐ Planned |
-| Module 05 - Package Management | ☐ Planned |
-| Module 06 - Networking Fundamentals | ☐ Planned |
+| Module 03 - Users and Groups | ✅ Complete |
+| Module 04 - Processes and Services | ✅ Complete |
+| Module 05 - Package Management | ✅ Complete |
+| Module 06 - Networking | ✅ Complete |
 | Module 07 - Storage Management | ☐ Planned |
 | Module 08 - Bash Scripting | ☐ Planned |
 | Module 09 - Linux Security | ☐ Planned |
