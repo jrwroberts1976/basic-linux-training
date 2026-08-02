@@ -255,4 +255,4 @@ If you identify errors, have suggestions, or would like to add exercises, please
 
 # Licence
 
-This repository is provided for training and educational purposes.
+This repository is provided for training and educational purposes.# pipeline test
