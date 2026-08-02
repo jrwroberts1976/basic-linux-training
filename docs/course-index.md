@@ -178,7 +178,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -194,7 +194,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -210,7 +210,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -226,7 +226,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -242,7 +242,7 @@ Topics covered:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -262,7 +262,7 @@ Participants will:
 
 Status:
 
-⏳ Planned
+✅ Complete
 
 ---
 
@@ -277,8 +277,8 @@ Status:
 | Module 04 - Processes and Services | ✅ Complete |
 | Module 05 - Package Management | ✅ Complete |
 | Module 06 - Networking Fundamentals | ✅ Complete |
-| Module 07 - Storage Management | ⏳ Planned |
-| Module 08 - Bash Scripting | ⏳ Planned |
-| Module 09 - Linux Security | ⏳ Planned |
-| Module 10 - Troubleshooting | ⏳ Planned |
-| Final Linux Administration Lab | ⏳ Planned |
+| Module 07 - Storage Management | ✅ Complete |
+| Module 08 - Bash Scripting | ✅ Complete |
+| Module 09 - Linux Security | ✅ Complete |
+| Module 10 - Troubleshooting | ✅ Complete |
+| Final Linux Administration Lab | ✅ Complete |
