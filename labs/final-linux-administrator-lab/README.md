@@ -44,6 +44,18 @@ Complete the following tasks:
 9. Documentation
 
 ---
+## Lab Validation Script
+
+Once you have completed the final administrator lab, you can use the validation script to check your work.
+
+Download the checker script:
+
+[Download check-my-work.sh](check-my-work.sh)
+
+Make the script executable:
+
+```bash
+chmod +x check-my-work.sh
 
 # Task 1 - System Assessment
 
