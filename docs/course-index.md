@@ -140,10 +140,10 @@ Status:
 | Lesson | Topic | Status |
 |---|---|---|
 | 01 | Package Managers | ✅ Complete |
-| 02 | Installing Software | ☐ Planned |
-| 03 | Updating Systems | ☐ Planned |
-| 04 | Software Repositories | ☐ Planned |
-| 05 | Package Management Administration Lab | ☐ Planned |
+| 02 | Installing Software | ✅ Complete |
+| 03 | Updating Systems | ✅ Complete |
+| 04 | Software Repositories | ✅ Complete |
+| 05 | Package Management Administration Lab | ✅ Complete |
 
 ## Topics Covered
 

@@ -87,10 +87,10 @@ Work through each module in order.
 | 00 | [Introduction to Linux](./00-introduction/README.md) | ✅ Complete |
 | 01 | [Command Line Fundamentals](./01-command-line/README.md) | ✅ Complete |
 | 02 | [Linux Filesystem Administration](./02-filesystem/README.md) | ✅ Complete |
-| 03 | Users and Groups | ⏳ Planned |
-| 04 | Processes and Services | ⏳ Planned |
-| 05 | Package Management | ⏳ Planned |
-| 06 | Networking Fundamentals | ⏳ Planned |
+| 03 | Users and Groups | ✅ Complete |
+| 04 | Processes and Services | ✅ Complete |
+| 05 | Package Management | ✅ Complete |
+| 06 | Networking Fundamentals | ✅ Complete |
 | 07 | Storage Management | ⏳ Planned |
 | 08 | Bash Scripting | ⏳ Planned |
 | 09 | Linux Security | ⏳ Planned |
@@ -235,7 +235,7 @@ Additional reference material:
 | Module 02 - Linux Filesystem Administration | ✅ Complete |
 | Module 03 - Users and Groups | ✅ Complete |
 | Module 04 - Processes and Services | ✅ Complete |
-| Module 05 - Package Management | ⏳ Planned |
+| Module 05 - Package Management | ✅ Complete |
 | Module 06 - Networking Fundamentals | ✅ Complete |
 | Module 07 - Storage Management | ⏳ Planned |
 | Module 08 - Bash Scripting | ⏳ Planned |

@@ -257,9 +257,9 @@ Practical exercises:
 | Lesson | Topic | Status |
 |---|---|---|
 | 01 | Understanding Users and Groups | ✅ Complete |
-| 02 | Managing Users and Groups | ☐ Planned |
-| 03 | Passwords and sudo | ☐ Planned |
-| 04 | Users and Groups Administration Lab | ☐ Planned |
+| 02 | Managing Users and Groups | ✅ Complete |
+| 03 | Passwords and sudo | ✅ Complete |
+| 04 | Users and Groups Administration Lab | ✅ Complete |
 
 ### Status
 
@@ -410,7 +410,7 @@ Practical exercises:
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -426,7 +426,7 @@ Practical exercises:
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -442,7 +442,7 @@ Practical exercises:
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -469,7 +469,7 @@ Troubleshooting approach:
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 
@@ -488,7 +488,7 @@ Tasks may include:
 
 ### Status
 
-☐ Planned
+✅ Complete
 
 ---
 

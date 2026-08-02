@@ -53,10 +53,10 @@ By completing this module you will be able to:
 | Lesson | Topic | Status |
 |---|---|---|
 | 01 | Understanding Linux Processes | ✅ Complete |
-| 02 | Managing Linux Processes | ☐ Planned |
-| 03 | Systemd and Service Management | ☐ Planned |
-| 04 | Logs and journalctl | ☐ Planned |
-| 05 | Processes and Services Administration Lab | ☐ Planned |
+| 02 | Managing Linux Processes | ✅ Complete |
+| 03 | Systemd and Service Management | ✅ Complete |
+| 04 | Logs and journalctl | ✅ Complete |
+| 05 | Processes and Services Administration Lab | ✅ Complete |
 
 ---
 
