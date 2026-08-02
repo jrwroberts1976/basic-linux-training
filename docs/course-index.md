@@ -276,7 +276,7 @@ Status:
 | Module 03 - Users and Groups | ✅ Complete |
 | Module 04 - Processes and Services | ✅ Complete |
 | Module 05 - Package Management | ✅ Complete |
-| Module 06 - Networking Fundamentals | ⏳ Planned |
+| Module 06 - Networking Fundamentals | ✅ Complete |
 | Module 07 - Storage Management | ⏳ Planned |
 | Module 08 - Bash Scripting | ⏳ Planned |
 | Module 09 - Linux Security | ⏳ Planned |
